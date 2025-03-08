@@ -1,1 +1,30 @@
 /* Delete this text and put the CSS you get from ChatGPT in this file. */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#searchBox {
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    font-size: 16px;
+}
+
+#chart {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
